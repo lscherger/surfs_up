@@ -30,5 +30,11 @@ There is a high-level summary of the results and there are two additional querie
 
 ### Additional Query 1:
 For the first additional query, I would 
+<img width="913" alt="Screen Shot 2021-08-17 at 3 05 38 PM" src="https://user-images.githubusercontent.com/85946042/129796350-68bc7855-3599-4274-b543-722570b537e4.png">
+
+### Additional Query 2:
+<img width="748" alt="Screen Shot 2021-08-17 at 3 29 12 PM" src="https://user-images.githubusercontent.com/85946042/129796391-b6f0f43c-9a87-4c44-b649-0937af5c6ec0.png">
+<img width="740" alt="Screen Shot 2021-08-17 at 3 30 54 PM" src="https://user-images.githubusercontent.com/85946042/129796400-1ac51e7e-00b9-411c-8026-92359bf19eea.png">
+
 
 
