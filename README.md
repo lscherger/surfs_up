@@ -4,13 +4,13 @@ analysis of weather data for a future surf shop
 
 ## Overview of the analysis
 ### Purpose
-The purpose of this analysis was to use SQL Alchemy to connect Pandas and SQL to perform an analysis of weather data for a future surf shop. By connecting to a database, we can store the data, while still being able to perform session queries mapped to a specific point in the data using Python with Pandas. 
+The purpose of this analysis was to use SQL Alchemy to connect Pandas and SQL to perform an analysis of weather data for a future surf and ice cream shop in Oahu. By connecting to a database, we can store the data, while still being able to perform session queries mapped to a specific point in the data using Python with Pandas. 
 
 ## Results
 After analyzing the temperatures for June and December, there are a few differences that will be outlined in the points below. 
 * Point 1: The average temperature in June is 74.94 F, while the average temperature in December is 71.04 F, so the June average temperature is about 4 F higher than the December average temperature. 
 * Point 2: The quartile markers are 73 F (for 25% or Q1), 75 F (for 50% or Q2) and 77 F (for 75% or Q3) for June, and 69 F (for 25% or Q1), 71 F (for 50% or Q2) and 74 F (for 75% or Q3) for December. Temperatures in June were, on average, 3-4 F warmer than the corresponding quartile marker temperatures for December.
-* Point 3: There are about 2000 fewer temperature measurements taken in December (1517) than in June (1700). Upon further analysis, I discovered that measurements were taken from 2010 through 2017 in June, but only 2010 through 2016 for December. It would be helpful to also have the 2017 December temperatures for an accurate analysis for each year. The standard deviation of each set of temperatures (June and December) are relatively equal, however, the December standard deviation is a little larger, which could be affected by the smaller data set, which typically have more variance. 
+* Point 3: There are about 2000 fewer temperature measurements taken in December (1517) than in June (1700). Upon further analysis, I discovered that measurements were taken from 2010 through 2017 in June, but only 2010 through 2016 for December. It would be helpful to also have the 2017 December temperatures for an accurate analysis for each year. The standard deviation of each set of temperatures (June and December) are relatively equal, however, the December standard deviation (3.75 F is a little larger than the June standard deviation (3.26 F), which could be affected by the smaller data set, which typically has more variance. 
 
 ### Deliverable 1: Determine the summary statistics for June temperatures
 
@@ -25,8 +25,8 @@ After analyzing the temperatures for June and December, there are a few differen
 
 
 ## Summary
+After conducting an analysis using SQL Alchemy to query SQLite databases, I was able to display the temperature reports for June and December and distinguish the differences in temperature with quick turn-arounds. The temperatures in December were usually 3-4 F lower than the temperatures in June, showing that weather was still fairly temperature during this season. While the statistical summaries allowed us to spot differences between the June and December temperatures, I was also interested in analyzing temperature based on date and year. These additional queries could give the investor the historical weather data they needed to make a decision about the future surf and shake shop in Oahu.
 
-There is a high-level summary of the results and there are two additional queries to perform to gather more weather data for June and December.
 
 ### Additional Query 1:
 For the first additional query, I wanted to see how average temperature in each month is affected by date. For this query, I created a dataframe where I could see the average temperature for each day in the month. This is useful for graphing, where we could see if the temperatures tend to change as the month progresses. 
